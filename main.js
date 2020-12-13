@@ -11,7 +11,7 @@ function sendRequest() {
     var requestURL =
         'https://api.openweathermap.org/data/2.5/weather?q='
         + form.cityName.value
-        + '&appid=5dc13403f2944a9ccdf6d3e5f02c22f5';
+        + '&appid=08b124f880f7e313b535c97460072480';
     var request = new XMLHttpRequest();
     request.open('GET', requestURL);
     request.responseType = 'json';
